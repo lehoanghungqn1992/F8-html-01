@@ -136,7 +136,7 @@ a {
 
 .client {
     margin-top: 79px;
-    padding: 43px 0 64px;
+    padding: 43px 0 41px;
 }
 
 .client .row {
@@ -163,6 +163,22 @@ a {
     display: flex;
     margin: 70px 10px 0;
     justify-content: space-between;
+}
+
+.client .list-client .client-item {
+    width: 100%;
+}
+
+.client .list-client a {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 0 42px;
+    border-radius: 12px;
+}
+
+.client .list-client a:hover {
+    box-shadow: 0px 10px 20px 0px #0000001A;
 }
 
 .guides {
